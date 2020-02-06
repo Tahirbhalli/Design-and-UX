@@ -81,12 +81,12 @@ main{
   display: grid;
   grid-template-columns: auto auto auto;
   width: 100%;
+  height: 906px;
 }
 
 .grid-item{
   background-color: chocolate;
   border: 1px solid white;
-  height: 300px;
 }
 
 .smashing{
@@ -97,13 +97,12 @@ main{
   width: 96%;
 }
 
-.smashing h1{
+.smashing-h1 {
   text-align: center;
 }
 
 .span-text{
   font-size: large;
-  height: 50px;
   padding-top: 2rem;
   text-align: center;
 }
@@ -190,11 +189,11 @@ footer{
   padding-top: 50px;
   text-align: center;
   width: 100%;
+  font-size: large;
+  font-weight: bold;
 }
-
 .footer-heading{
   background-color: turquoise;
-  border: 1px solid white;
   height: 329px;
   margin: 0 auto;
   width: 80%;  
@@ -202,7 +201,7 @@ footer{
 
 .footer-bottom{
   background-color: turquoise;
-  border: 1px solid white;
+  
   height: 223px;
   margin: 30px auto;
   width: 80%;
