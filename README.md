@@ -2,7 +2,7 @@
 
 ![screenshot](./screenshot.png)
 
-The page tries to replicate as much as possible a New York Times Article.
+The page is a mock up of [this](https://www.smashingmagazine.com/) page.  
 
 ## Built With
 
