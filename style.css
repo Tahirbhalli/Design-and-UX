@@ -200,8 +200,8 @@ h1{
 
 footer{
   background-color: green;
-  height: 662px;
-  padding: 50px;
+  padding-bottom: 2rem;
+  padding-top: 50px;
   text-align: center;
   width: 100%;
 }
