@@ -20,10 +20,10 @@ ul{
 
 .nav_items{
   display: flex;
-  width: 100%;
-  height: 212px;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  height: 212px;
   background-color: tomato;
 }
 
@@ -47,19 +47,19 @@ main h1{
   margin-right: auto;
   margin-left: auto;
   margin-top: 30px;
-  background-color: white;
   text-align: center;
+  background-color: white;
 }
 
 .article_block article{
-  width: 50%;
-  height: 650px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  width: 50%;
+  height: 650px;
   margin-bottom: 5px;
   border: 1px solid white;
+  background-color: red;
 }
 
 .article_block_text{
@@ -68,33 +68,35 @@ main h1{
 
 .seriously_red{
   position: absolute;
+  width: 200px;
+  height: 30px;
   left: 0;
   right: 0;
   top: 0;
   margin-left: auto;
   margin-right: 40px;
   margin-top: 230px;
-  width: 200px;
-  height: 30px;
 }
 
 .articles{
-  background-color: blue;
   height: 436px;
+  width: 100%;
   border: 1px solid black;
   bottom: -5px;
+  background-color: blue;
 }
 
 .articles p{
   padding-left: 2.5rem;
   padding-top: 2rem;
 }
+
 .grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto;
   width: 100%;
-  
 }
+
 .grid-item{
   background-color: chocolate;
   height: 300px;
@@ -102,21 +104,21 @@ main h1{
 }
 
 .smashing{
-  background-color: rgb(48, 0, 10);
   width: 96%;
   margin: 5px auto;
   height: 400px;
+  background-color: rgb(48, 0, 10);
   border-radius: 2%;
 }
 
-.smashing h1{
+h1{
   text-align: center;
 }
 
 .span-text{
-  text-align: center;
   height: 50px;
   padding-top: 2rem;
+  text-align: center;
   font-size: large;
 }
 
@@ -129,11 +131,11 @@ main h1{
 }
 
 .person-week{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
   width: 100%;
   height: 320px;
   background-color: yellow;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
 }
 
 .person-picture{
@@ -141,10 +143,10 @@ main h1{
 }
 
 .people-articles{
+  display: grid;
+  grid-template-columns: auto auto;
   width: 100%;
   background-color: teal;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .persons{
