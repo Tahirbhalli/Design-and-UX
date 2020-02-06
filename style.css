@@ -28,15 +28,15 @@ main{
 .article_block{
   display: grid;
   grid-template-columns: auto auto;
+  height: 1300px;
 }
 .block-item{
   background-color: rgb(241, 9, 9);
   border: 1px solid white;
-  height: 650px;
   text-align: center;
 }
 
-main h1{
+.main-h1{
   background-color: white;
   height:fit-content;
   left: 0;
