@@ -201,7 +201,7 @@ h1{
 footer{
   background-color: green;
   height: 662px;
-  padding-top: 50px;
+  padding: 50px 0 0 0;
   text-align: center;
   width: 100%;
 }
