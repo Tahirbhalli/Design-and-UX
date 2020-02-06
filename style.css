@@ -19,12 +19,12 @@ ul{
 }
 
 .nav_items{
-  display: flex;
-  justify-content: space-around;
   align-items: center;
-  width: 100%;
-  height: 212px;
   background-color: tomato;
+  display: flex;
+  height: 212px;
+  justify-content: space-around;
+  width: 100%;
 }
 
 main{
@@ -34,32 +34,32 @@ main{
 
 .article_block{
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 main h1{
-  position: absolute;
-  width: 50%;
+  background-color: white;
   height: 80px;
   left: 0;
-  right: 0;
   margin-right: auto;
   margin-left: auto;
   margin-top: 30px;
+  position: absolute;
+  right: 0;
   text-align: center;
-  background-color: white;
+  width: 50%;
 }
 
 .article_block article{
-  display: flex;
-  justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 650px;
-  margin-bottom: 5px;
-  border: 1px solid white;
   background-color: red;
+  border: 1px solid white;
+  display: flex;
+  height: 650px;
+  justify-content: center;
+  margin-bottom: 5px;
+  width: 50%;
 }
 
 .article_block_text{
@@ -67,23 +67,23 @@ main h1{
 }
 
 .seriously_red{
-  position: absolute;
-  width: 200px;
   height: 30px;
   left: 0;
-  right: 0;
-  top: 0;
   margin-left: auto;
   margin-right: 40px;
   margin-top: 230px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
 }
 
 .articles{
-  height: 436px;
-  width: 100%;
+  background-color: blue;
   border: 1px solid black;
   bottom: -5px;
-  background-color: blue;
+  height: 436px;
+  width: 100%;
 }
 
 .articles p{
@@ -99,16 +99,16 @@ main h1{
 
 .grid-item{
   background-color: chocolate;
-  height: 300px;
   border: 1px solid white;
+  height: 300px;
 }
 
 .smashing{
-  width: 96%;
-  margin: 5px auto;
-  height: 400px;
   background-color: rgb(48, 0, 10);
   border-radius: 2%;
+  height: 400px;
+  margin: 5px auto;
+  width: 96%;
 }
 
 h1{
@@ -116,26 +116,26 @@ h1{
 }
 
 .span-text{
+  font-size: large;
   height: 50px;
   padding-top: 2rem;
   text-align: center;
-  font-size: large;
 }
 
 .ethical-design{
   background-color: cyan;
-  margin-top: 3rem;
   height: 739px;
-  width: 100%;
+  margin-top: 3rem;
   text-align: center;
+  width: 100%;
 }
 
 .person-week{
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  width: 100%;
-  height: 320px;
   background-color: yellow;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 320px;
+  width: 100%;
 }
 
 .person-picture{
@@ -143,22 +143,22 @@ h1{
 }
 
 .people-articles{
+  background-color: teal;
   display: grid;
   grid-template-columns: auto auto;
   width: 100%;
-  background-color: teal;
+  height: 1500px;
 }
 
 .persons{
   border: 1px solid white;
-  height: 500px;
 }
 
 .more-links{
-  width: 100%;
   height: 150px;
-  text-align: center;
   margin-top: 140px;
+  text-align: center;
+  width: 100%;
 }
 
 .design-systems{
@@ -170,7 +170,7 @@ h1{
 .guides{
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto;
   height: 633px;
   background-color: yellowgreen;
 }
