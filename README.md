@@ -6,7 +6,7 @@ The page is a mock up of [this](https://www.smashingmagazine.com/) page.
 
 ## Built With
 
-- Html,
+- Html
 - CSS
 
 ## Live Demo
@@ -18,7 +18,7 @@ The page is a mock up of [this](https://www.smashingmagazine.com/) page.
 
 👤 **Author1**
 
-- Github: [@adamclasic](https://github.com/davisdambis)
+- Github: [@davisdambis](https://github.com/davisdambis)
 
 
 👤 **Author2**
