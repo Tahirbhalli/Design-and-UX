@@ -11,7 +11,7 @@ The page is a mock up of [this](https://www.smashingmagazine.com/) page.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/davisdambis/Design-and-UX/1a763aaa4eb0469ba62b2e3b4c8be8ac08f631aa/index.html)
+[Live Demo Link](https://rawcdn.githack.com/davisdambis/Design-and-UX/b2f60eb376385a7ed9da5892573cd080e9fb2582/index.html)
 
 
 ## Authors
