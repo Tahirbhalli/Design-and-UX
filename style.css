@@ -1,12 +1,5 @@
 html{
-  box-sizing: border-box;
   max-width: 100%;
-}
-
-*{
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
 }
 
 a{
@@ -24,7 +17,7 @@ ul{
   display: flex;
   height: 212px;
   justify-content: space-around;
-  width: 100%;
+  width: 97%;
 }
 
 main{
@@ -33,14 +26,19 @@ main{
 }
 
 .article_block{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.block-item{
+  background-color: rgb(241, 9, 9);
+  height: 650px;
+  border: 1px solid white;
+  text-align: center;
 }
 
 main h1{
   background-color: white;
-  height: 80px;
+  height:fit-content;
   left: 0;
   margin-left: auto;
   margin-right: auto;
@@ -48,7 +46,7 @@ main h1{
   position: absolute;
   right: 0;
   text-align: center;
-  width: 50%;
+  width:min-content;
 }
 
 .article_block article{
@@ -200,7 +198,7 @@ h1{
 
 footer{
   background-color: green;
-  height: 662px;
+  padding-bottom: 2rem;
   padding-top: 50px;
   text-align: center;
   width: 100%;
