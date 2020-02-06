@@ -31,8 +31,8 @@ main{
 }
 .block-item{
   background-color: rgb(241, 9, 9);
-  height: 650px;
   border: 1px solid white;
+  height: 650px;
   text-align: center;
 }
 
