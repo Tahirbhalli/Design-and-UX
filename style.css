@@ -28,8 +28,8 @@ ul{
 }
 
 main{
-  width: 100%;
   height: 1310px;
+  width: 100%;
 }
 
 .article_block{
@@ -42,8 +42,8 @@ main h1{
   background-color: white;
   height: 80px;
   left: 0;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
   margin-top: 30px;
   position: absolute;
   right: 0;
@@ -162,17 +162,17 @@ h1{
 }
 
 .design-systems{
+  background-color: violet;
   height: 401px;
   width: 100%;
-  background-color: violet;
 }
 
 .guides{
-  width: 100%;
+  background-color: yellowgreen;  
   display: grid;
   grid-template-columns: auto auto auto;
   height: 633px;
-  background-color: yellowgreen;
+  width: 100%;
 }
 
 .guides-text{
@@ -180,11 +180,11 @@ h1{
 }
 
 .design-patterns{
-  width: 100%;
+  background-color: wheat;  
   display: grid;
   grid-template-columns: 1fr 3fr;
   height: 633px;
-  background-color: wheat;
+  width: 100%;
 }
 
 .design-items{
@@ -192,33 +192,32 @@ h1{
 }
 
 .article_block2{
-  width: 100%;
   height: 150px;
-  text-align: center;
   margin-top: 140px;
+  text-align: center;
+  width: 100%;
 }
 
 footer{
-  height: 662px;
-  width: 100%;
   background-color: green;
+  height: 662px;
   padding-top: 50px;
   text-align: center;
+  width: 100%;
 }
 
 .footer-heading{
-  height: 329px;
-  width: 80%;
   background-color: turquoise;
-  margin: 0 auto;
   border: 1px solid white;
-  
+  height: 329px;
+  margin: 0 auto;
+  width: 80%;  
 }
 
 .footer-bottom{
-  margin: 30px auto;
-  height: 223px;
-  width: 80%;
-  border: 1px solid white;
   background-color: turquoise;
+  border: 1px solid white;
+  height: 223px;
+  margin: 30px auto;
+  width: 80%;
 }
