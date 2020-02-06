@@ -200,6 +200,8 @@ footer{
   height: 662px;
   width: 100%;
   background-color: green;
+  padding-top: 50px;
+  text-align: center;
 }
 
 .footer-heading{
@@ -207,12 +209,14 @@ footer{
   width: 80%;
   background-color: turquoise;
   margin: 0 auto;
-  margin-top: 1000px;
+  border: 1px solid white;
+  
 }
 
 .footer-bottom{
-  margin: 0 auto;
+  margin: 30px auto;
   height: 223px;
   width: 80%;
+  border: 1px solid white;
   background-color: turquoise;
 }
