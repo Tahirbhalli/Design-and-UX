@@ -28,7 +28,7 @@ main{
 .article_block{
   display: grid;
   grid-template-columns: auto auto;
-  height: 1300px;
+  height: 1317px;
 }
 .block-item{
   background-color: rgb(241, 9, 9);
@@ -49,17 +49,6 @@ main{
   width:min-content;
 }
 
-.article_block article{
-  align-items: center;
-  background-color: red;
-  border: 1px solid white;
-  display: flex;
-  height: 650px;
-  justify-content: center;
-  margin-bottom: 5px;
-  width: 50%;
-}
-
 .article_block_text{
   text-align: center;
 }
@@ -78,7 +67,6 @@ main{
 
 .articles{
   background-color: blue;
-  border: 1px solid black;
   bottom: -5px;
   height: 436px;
   width: 100%;
