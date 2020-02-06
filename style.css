@@ -59,6 +59,7 @@ main h1{
   align-items: center;
   background-color: red;
   margin-bottom: 5px;
+  border: 1px solid white;
 }
 
 .article_block_text{
@@ -97,7 +98,7 @@ main h1{
 .grid-item{
   background-color: chocolate;
   height: 300px;
-  
+  border: 1px solid white;
 }
 
 .smashing{
@@ -125,4 +126,93 @@ main h1{
   height: 739px;
   width: 100%;
   text-align: center;
+}
+
+.person-week{
+  width: 100%;
+  height: 320px;
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.person-picture{
+  border: 1px solid white;
+}
+
+.people-articles{
+  width: 100%;
+  background-color: teal;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.persons{
+  border: 1px solid white;
+  height: 500px;
+}
+
+.more-links{
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.design-systems{
+  height: 401px;
+  width: 100%;
+  background-color: violet;
+}
+
+.guides{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 633px;
+  background-color: yellowgreen;
+}
+
+.guides-text{
+  border: 1px solid white;
+}
+
+.design-patterns{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 633px;
+  background-color: wheat;
+}
+
+.design-items{
+  border: 1px solid white;
+}
+
+.article_block2{
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  margin-top: 140px;
+}
+
+footer{
+  height: 662px;
+  width: 100%;
+  background-color: green;
+}
+
+.footer-heading{
+  height: 329px;
+  width: 80%;
+  background-color: turquoise;
+  margin: 0 auto;
+  margin-top: 1000px;
+}
+
+.footer-bottom{
+  margin: 0 auto;
+  height: 223px;
+  width: 80%;
+  background-color: turquoise;
 }
